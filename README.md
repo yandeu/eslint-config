@@ -14,8 +14,8 @@ npm i -D @yandeu/eslint-config
 ```json
 // package.json
 "scripts": {
-  "lint": "eslint src/**",
-  "lint:fix": "eslint --fix src/**"
+  "lint": "eslint src --ext .ts,.tsx",
+  "lint:fix": "eslint --fix src --ext .ts,.tsx"
 }
 ```
 
