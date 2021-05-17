@@ -31,6 +31,22 @@ npm i -D @yandeu/eslint-config
 }
 ```
 
+## TypeScript
+
+Using TypeScript? Maybe you also want to add the rules below:
+
+```json
+{
+  // no-dupe-class-members ts fix
+  "no-dupe-class-members": "off",
+  "@typescript-eslint/no-dupe-class-members": ["error"],
+
+  // no-redeclare ts fix
+  "no-redeclare": "off",
+  "@typescript-eslint/no-redeclare": ["error"]
+}
+```
+
 ## GitHub Actions
 
 ```yml
