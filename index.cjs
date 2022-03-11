@@ -13,6 +13,6 @@ module.exports = {
     'prefer-object-spread': 'warn',
     'prefer-spread': 'warn',
     'prefer-template': 'warn',
-    'sort-imports': 'warn'
+    'sort-imports': 'off'
   }
 }
